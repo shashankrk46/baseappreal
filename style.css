@@ -91,6 +91,22 @@ input:focus {
 .btn:focus {
   outline: none;
 }
+.error {
+  display: none;
+  position: absolute;
+  top: 13px;
+  right: 130px;
+}
+.showError {
+  margin: 5px 0px 0px 10px;
+  text-align: left;
+}
+/* .form-error .error {
+  display: block;
+  position: absolute;
+  top: 13px;
+  right: 130px;
+} */
 .right-col {
   background: url(./images/hero-desktop.jpg);
   background-size: cover;
