@@ -1,0 +1,105 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+:root {
+  --DesaturatedRed: hsl(0, 36%, 70%);
+  --SoftRed: hsl(0, 93%, 68%);
+  --DarkGrayishRed: hsl(0, 6%, 24%);
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  overflow-y: hidden;
+  background-image: linear-gradient(
+    135deg,
+    hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%)
+  );
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+.left-col {
+  width: 60%;
+  background: url(./images/bg-pattern-desktop.svg) center center/cover;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 160px;
+  max-width: 450px;
+  /* align-items: center; */
+}
+.logo {
+  width: 180px;
+  margin: 40px 0px 100px 0;
+}
+h6 {
+  font-size: 50px;
+  letter-spacing: 20px;
+}
+h4 {
+  font-size: 50px;
+  letter-spacing: 20px;
+  line-height: 1.1;
+}
+.heading {
+  color: var(--DesaturatedRed);
+  font-size: 60px;
+  font-weight: 350;
+}
+p {
+  margin: 20px 0px 45px 0;
+  line-height: 1.9;
+  color: var(--DesaturatedRed);
+}
+
+.input-box {
+  position: relative;
+}
+
+input {
+  padding: 20px 10px;
+  width: 100%;
+  border-radius: 40px;
+  position: relative;
+  border: 1px solid hsla(0, 6%, 24%, 0.2);
+}
+input::placeholder {
+  color: var(--DesaturatedRed);
+}
+
+input:focus {
+  outline: none;
+}
+.btn {
+  position: absolute;
+  top: 0px;
+  right: -1px;
+  /* text-align: center; */
+  padding: 16.9px 55px;
+  border-radius: 40px;
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  border: none;
+}
+.btn:focus {
+  outline: none;
+}
+.right-col {
+  background: url(./images/hero-desktop.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 40%;
+}
+/* .hero {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
