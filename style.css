@@ -148,7 +148,7 @@ input:focus {
   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 800px) {
   body {
     overflow-y: auto;
     height: 100vh;
