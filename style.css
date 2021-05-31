@@ -119,15 +119,15 @@ input:focus {
   background-position: center center;
   width: 40%;
 }
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 20px 50px;
     max-width: 450px;
-    /* align-items: center; */
-  }
+    /* align-items: center;
+  } 
   input {
     padding: 20px 10px;
     width: 100%;
@@ -146,9 +146,9 @@ input:focus {
     font-size: 40px;
     font-weight: 300;
   }
-}
+} */
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
   body {
     overflow-y: auto;
     height: 100vh;
