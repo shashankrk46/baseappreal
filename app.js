@@ -14,7 +14,7 @@ function emailValidate(e) {
       "Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character"
     );
   } else {
-    setSuccess(input, "You are now subscribed now !!! Thanks");
+    setSuccess(input, "You are now subscribed !!! Thanks");
   }
   e.preventDefault();
 }
